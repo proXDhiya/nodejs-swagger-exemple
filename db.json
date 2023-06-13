@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id": "2",
+      "title": "The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien"
+    },
+    {
+      "id": "3",
+      "title": "The Two Towers",
+      "author": "J.R.R. Tolkien"
+    }
+  ]
+}
