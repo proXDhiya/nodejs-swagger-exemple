@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/books', require('./routes/books'));
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
+app.use('/', swaggerUi.serve, swaggerUi.setup(specs));
 
 // listen
 app.listen(PORT, () => {
